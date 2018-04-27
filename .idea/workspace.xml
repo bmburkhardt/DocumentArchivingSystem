@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49d26473-ec9d-4051-885d-403d11a31ce5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminDocumentsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminDocumentsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2018_04_27_044616_create_documents_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2018_04_27_044616_create_documents_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/documents/1524809358Lab4-Report.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/documents/1524809935Lab4-Report.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/documents/1524809992Lab4-Report.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/documents/1524810057Lab4-Report.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/documents/1524810107Lab4-Report.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/documents/1524810432Lab4-Report.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/documents/1524810542Lab4-Report.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/documents/1524811382Lab4-Report.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/documents/1524814202Lab4-Report.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1524790292Lab4-Report.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1524790551Lab4-Report.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1524790583Lab4-Report.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1524790610Lab4-Report.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1524794277default.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1524800290hodor.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/1524800752hodor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminCategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminCategoriesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/documents/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/documents/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/documents/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/documents/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,16 +22,16 @@
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="430">
-              <caret line="156" column="33" lean-forward="true" selection-start-line="156" selection-start-column="33" selection-end-line="160" selection-end-column="33" />
+              <caret line="156" column="33" selection-start-line="156" selection-start-column="33" selection-end-line="160" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminCategoriesController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AdminCategoriesController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminCategoriesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+            <state relative-caret-position="141">
+              <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
               <folding>
                 <element signature="e#40#57#0#PHP" expanded="true" />
               </folding>
@@ -73,17 +51,26 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="11" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="435">
+              <caret line="35" column="111" selection-start-line="35" selection-start-column="111" selection-end-line="35" selection-end-column="111" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state relative-caret-position="345">
+              <caret line="23" column="82" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/documents/edit.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="33" column="105" selection-start-line="33" selection-start-column="105" selection-end-line="33" selection-end-column="105" />
             </state>
           </provider>
         </entry>
@@ -143,8 +130,8 @@
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminCategoriesController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminCategoriesController.php" />
       </list>
     </option>
   </component>
@@ -329,6 +316,14 @@
               <item name="codehacking" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="documents" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="codehacking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codehacking" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="errors" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -390,12 +385,12 @@
       <updated>1524509963842</updated>
       <workItem from="1524509965166" duration="7453000" />
       <workItem from="1524546831226" duration="599000" />
-      <workItem from="1524776155087" duration="33305000" />
+      <workItem from="1524776155087" duration="34583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41357000" />
+    <option name="totallyTimeSpent" value="42635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="522" y="31" width="1400" height="1000" extended-state="0" />
@@ -685,13 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/documents/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="105" selection-start-line="33" selection-start-column="105" selection-end-line="33" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/users/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="562">
@@ -740,34 +728,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminCategoriesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-          <folding>
-            <element signature="e#40#57#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
-          <caret line="156" column="33" lean-forward="true" selection-start-line="156" selection-start-column="33" selection-end-line="160" selection-end-column="33" />
+          <caret line="156" column="33" selection-start-line="156" selection-start-column="33" selection-end-line="160" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="11" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="435">
+          <caret line="35" column="111" selection-start-line="35" selection-start-column="111" selection-end-line="35" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/documents/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="33" column="105" selection-start-line="33" selection-start-column="105" selection-end-line="33" selection-end-column="105" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="345">
+          <caret line="23" column="82" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminCategoriesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+          <folding>
+            <element signature="e#40#57#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
