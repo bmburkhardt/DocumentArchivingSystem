@@ -21,7 +21,7 @@
         @if($documents)
             @foreach($documents as $document)
                 <tr>
-                    <td>{{$document->title}}</td>
+                    <td><a href="{{route('admin.documents.edit', $document->id)}}">{{$document->title}}</a></td>
                     <td>{{$document->user->name}}</td>
                     <td>{{$document->category ? $document->category->name : 'Uncategorized'}}</td>
                     <td>{{$document->summary}}</td>

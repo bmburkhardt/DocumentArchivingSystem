@@ -5,10 +5,12 @@ namespace App\Http\Controllers;
 use App\Category;
 use App\Document;
 use App\Http\Requests\DocumentsCreateRequest;
+use App\User;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use Illuminate\Support\Facades\Auth;
+use PhpParser\Comment\Doc;
 
 class AdminDocumentsController extends Controller
 {
@@ -76,7 +78,9 @@ class AdminDocumentsController extends Controller
      */
     public function edit($id)
     {
-        //
+        $document = Document::findOrFail($id);
+        $categories = Category::lists('name', 'id')->all();
+        return view('admin.documents.edit', compact('document', 'categories'));
     }
 
     /**
@@ -88,7 +92,17 @@ class AdminDocumentsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $input = $request->all();
+
+        if($file = $request->file('path')) {
+            $name = time() . $file->getClientOriginalName();
+            $file->move('documents', $name);
+            $input['path'] = $name;
+        }
+
+        Auth::user()->documents()->whereId($id)->first()->update($input);
+
+        return redirect('/admin/documents');
     }
 
     /**
@@ -99,6 +113,11 @@ class AdminDocumentsController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $document = Document::findOrFail($id);
+        unlink(public_path() . '/documents/' . $document->path);
+        $document->delete();
+
+        return redirect('/admin/documents');
+
     }
 }

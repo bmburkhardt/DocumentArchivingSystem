@@ -20,6 +20,8 @@ class CreateDocumentsTable extends Migration
             $table->string('path');
             $table->string('summary')->default('No summary available');
             $table->timestamps();
+
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 

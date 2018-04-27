@@ -153,17 +153,17 @@
                         <a href="#"><i class="fa fa-wrench fa-fw"></i>Categories<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="/categories">All Categories</a>
+                                <a href="{{route('admin.categories.index')}}">All Categories</a>
                             </li>
 
                             <li>
-                                <a href="/categories/create">Create Category</a>
+                                <a href="{{route('admin.categories.create')}}">Create Category</a>
                             </li>
 
                         </ul>
                         <!-- /.nav-second-level -->
                     </li>
-
+                    <!--
                     <li>
                         <a href="#"><i class="fa fa-wrench fa-fw"></i>Media<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
@@ -176,7 +176,6 @@
                             </li>
 
                         </ul>
-                        <!-- /.nav-second-level -->
                     </li>
 
 
@@ -195,7 +194,6 @@
                                 <a href="morris.html">Morris.js Charts</a>
                             </li>
                         </ul>
-                        <!-- /.nav-second-level -->
                     </li>
                     <li>
                         <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
@@ -225,7 +223,6 @@
                                 <a href="grid.html">Grid</a>
                             </li>
                         </ul>
-                        <!-- /.nav-second-level -->
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
@@ -252,10 +249,8 @@
                                         <a href="#">Third Level Item</a>
                                     </li>
                                 </ul>
-                                <!-- /.nav-third-level -->
                             </li>
                         </ul>
-                        <!-- /.nav-second-level -->
                     </li>
                     <li class="active">
                         <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
@@ -267,8 +262,8 @@
                                 <a href="login.html">Login Page</a>
                             </li>
                         </ul>
-                        <!-- /.nav-second-level -->
                     </li>
+                    -->
                 </ul>
 
 
