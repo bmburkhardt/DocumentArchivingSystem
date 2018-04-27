@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Document;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -15,7 +16,8 @@ class AdminDocumentsController extends Controller
      */
     public function index()
     {
-        //
+        $documents = Document::all();
+        return view('admin.documents.index', compact('documents'));
     }
 
     /**
@@ -25,7 +27,7 @@ class AdminDocumentsController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.documents.create');
     }
 
     /**
