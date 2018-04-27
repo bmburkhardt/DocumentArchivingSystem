@@ -3,9 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Document;
+use App\Http\Requests\DocumentsCreateRequest;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
+use Illuminate\Support\Facades\Auth;
 
 class AdminDocumentsController extends Controller
 {
@@ -36,9 +38,21 @@ class AdminDocumentsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(DocumentsCreateRequest $request)
     {
-        //
+        $input = $request->all();
+        $user = Auth::user();
+
+        if($file = $request->file('path')) {
+            $name = time() . $file->getClientOriginalName();
+            $file->move('documents', $name);
+            $input['path'] = $name;
+            $input['user_id'] = $user->id;
+        }
+
+        $user->documents()->create($input);
+
+        return redirect('/admin/documents');
     }
 
     /**

@@ -8,8 +8,10 @@
             <tr>
                 <th>Title</th>
                 <th>Owner</th>
-                <th>Download</th>
+                <th>Category</th>
                 <th>Summary</th>
+                <th>Download</th>
+
                 <th>Created</th>
                 <th>Updated</th>
             </tr>
@@ -20,9 +22,10 @@
             @foreach($documents as $document)
                 <tr>
                     <td>{{$document->title}}</td>
-                    <td>{{$document->user_id}}</td>
-                    <td>Download</td>
+                    <td>{{$document->user->name}}</td>
+                    <td>{{$document->category_id}}</td>
                     <td>{{$document->summary}}</td>
+                    <td>Download</td>
                     <td>{{$document->created_at->diffForHumans()}}</td>
                     <td>{{$document->updated_at->diffForHumans()}}</td>
                 </tr>
