@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Category;
 use App\Document;
 use App\Http\Requests\DocumentsCreateRequest;
 use Illuminate\Http\Request;
@@ -29,7 +30,8 @@ class AdminDocumentsController extends Controller
      */
     public function create()
     {
-        return view('admin.documents.create');
+        $categories = Category::lists('name','id')->all();
+        return view('admin.documents.create', compact('categories'));
     }
 
     /**

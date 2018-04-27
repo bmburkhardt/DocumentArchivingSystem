@@ -23,7 +23,7 @@
                 <tr>
                     <td>{{$document->title}}</td>
                     <td>{{$document->user->name}}</td>
-                    <td>{{$document->category_id}}</td>
+                    <td>{{$document->category ? $document->category->name : 'Uncategorized'}}</td>
                     <td>{{$document->summary}}</td>
                     <td>Download</td>
                     <td>{{$document->created_at->diffForHumans()}}</td>
