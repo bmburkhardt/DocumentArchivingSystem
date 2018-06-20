@@ -1,3 +1,25 @@
+# Web-based document archiving system. 
+
+Project I worked on for my independent study in my last semester of college. It is developed in php, html, and css using the Laravel framework. While working on this project, I also completed a 31.5 hour Laravel course on Udemy.com. This project along with the course was an excellent introduction to php, html, css, and Laravel.
+
+Currently hosted on a dedicated server using a XAMPP stack. The project is far from finished and is still in very early stages of development.
+
+## Features:
+- [x] Account Creation
+- [x] Roles (admin, author, general user)
+- [x] Viewable List of Users (admin)
+- [x] Edit/Deletion of Users (admin)
+- [x] Document Uploading
+- [x] Viewable List of Documents
+- [x] Ability to Edit Documents
+- [x] Ability to Create, Edit, and Delete Document Categories
+- [ ] Hashed Passwords (currently bugged)
+- [ ] Downloadable Documents
+- [ ] Document Preview Directly from Website
+- [ ] Document Search
+- [ ] And Many More to Come
+
+
 # Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
